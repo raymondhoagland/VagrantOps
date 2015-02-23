@@ -2,7 +2,7 @@ echo 'Installing curl'
 sudo apt-get install -y curl
 
 echo 'Installing pip'
-sudo apt-get install python-pip
+sudo apt-get install -y python-pip
 
 echo 'Get right version of nodejs, npm'
 curl -sL https://deb.nodesource.com/setup | sudo bash -

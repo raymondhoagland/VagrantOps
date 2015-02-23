@@ -22,3 +22,5 @@ npm install -g zombies
 echo 'Installing grunt'
 npm install -g grunt-cli
 
+echo 'Installing bootstrap'
+npm install -g bootstrap

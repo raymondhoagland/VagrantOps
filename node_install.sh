@@ -24,3 +24,7 @@ npm install -g grunt-cli
 
 echo 'Installing bootstrap'
 npm install -g bootstrap
+
+echo 'Installing nightwatch'
+npm install -g nightwatch
+

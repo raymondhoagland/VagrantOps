@@ -28,3 +28,5 @@ npm install -g bootstrap
 echo 'Installing nightwatch'
 npm install -g nightwatch
 
+echo 'Installing mongoose'
+npm install -g mongoose

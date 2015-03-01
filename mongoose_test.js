@@ -22,9 +22,10 @@ db.once('open', function(callback) {
     var fluffy = new Kitten({name: 'fluffy' });
     fluffy.speak();
 
-        Kitten.find(function (err, kittens) {
+    Kitten.find(function (err, kittens) {
         if (err) return console.error(err);
         console.log(kittens);
+        console.log('what you looking at');
     });
 
     fluffy.save(function (err, fluffy) {
